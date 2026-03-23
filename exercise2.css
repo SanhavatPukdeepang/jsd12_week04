@@ -1,0 +1,29 @@
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+}
+
+h2 {
+  color: white;
+  font-size: 300px;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  text-shadow:
+    3px 3px 2px #e74444,
+    -3px -3px 2px #38c2ec;
+    
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
