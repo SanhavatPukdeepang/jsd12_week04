@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <nav class="flex items-center justify-between bg-blue-600 text-white px-6 py-4">
+
+    <!-- Logo -->
+    <div class="text-xl font-bold">
+      MyLogo
+    </div>
+
+    <!-- Menu -->
+    <ul class="hidden md:flex gap-6">
+      <li><a href="#" class="hover:text-gray-200">Home</a></li>
+      <li><a href="#" class="hover:text-gray-200">About</a></li>
+      <li><a href="#" class="hover:text-gray-200">Services</a></li>
+      <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+    </ul>
+
+    <!-- Button -->
+    <button class="hidden md:block bg-white text-blue-600 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200">
+      Login
+    </button>
+
+    <!-- Mobile Menu Button -->
+    <button class="md:hidden text-2xl">
+      ☰
+    </button>
+
+  </nav>
+  <div class="flex flex-col">
+
+    <nav class="flex justify-between w-screen">
+      <h2 class="font-bold">JSSD12</h2>
+
+      <ul>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SIGN IN</li>
+      </ul>
+    </nav>
+
+    <h1 class="text-5xl font-bold underline md:bg-green-400">
+      Hello
+    </h1>
+
+    <button class="p-4 m-7 bg-pink-400 w-[150px] hover:bg-black hover:text-pink-400">
+      CLICK ME
+    </button>
+
+  </div>
+</body>
+</html>
